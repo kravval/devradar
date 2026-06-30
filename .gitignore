@@ -1,0 +1,80 @@
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Gradle (на случай миграции) =====
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== Spring Boot =====
+*.original
+HELP.md
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+.history/
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+
+# ===== NetBeans =====
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===== Логи =====
+*.log
+logs/
+log/
+
+# ===== Окружение и секреты =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+application-local.yml
+application-local.properties
+
+# ===== Docker =====
+.docker/
+docker-compose.override.yml
+
+# ===== OS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Прочее =====
+*.swp
+*.bak
+*.tmp
+*~
