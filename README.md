@@ -51,4 +51,4 @@ No scraping. No private feeds.
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+MIT — see [LICENSE](./LICENSE)
