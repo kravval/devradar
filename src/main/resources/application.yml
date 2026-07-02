@@ -1,1 +1,17 @@
-spring.application.name=devradar
+# Application identity
+spring:
+  application:
+    name: devradar
+
+# Embedded web server
+server:
+  port: 8080
+
+# Logging
+logging:
+  level:
+    root: INFO
+    dev.devradar: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"
+
